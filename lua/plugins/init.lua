@@ -25,6 +25,7 @@ return {
         "bash",
         "cpp",
         "python",
+        "json",
       },
     },
   },
