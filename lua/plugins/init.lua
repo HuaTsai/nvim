@@ -37,6 +37,7 @@ return {
     opts = function()
       conf = require "nvchad.configs.nvimtree"
       conf.filters.git_ignored = false
+      conf.view.adaptive_size = true
       return conf
     end,
   },
