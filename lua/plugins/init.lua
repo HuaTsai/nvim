@@ -26,7 +26,7 @@ return {
         "cpp",
         "python",
         "json",
-        "markdown"
+        "markdown",
       },
     },
   },
@@ -64,4 +64,14 @@ return {
       vim.g.copilot_no_tab_map = true
     end,
   },
+
+  { "nvzone/volt", lazy = true },
+
+  { "nvzone/minty", cmd = { "Shades", "Huefy" } },
+
+  { "nvzone/menu", lazy = true },
+
+  { "nvzone/showkeys", cmd = "ShowkeysToggle", opts = { position = "top-center" } },
+
+  { "nvzone/timerly", cmd = "TimerlyToggle" },
 }
